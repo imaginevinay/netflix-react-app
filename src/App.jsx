@@ -1,12 +1,8 @@
-import './App.css'
+import Body from './components/Body'
+import "./App.css";
 
 function App() {
-
-  return (
-    <>
-      <p className='text-5xl bg-green-200'>Hello vinay</p>
-    </>
-  )
+  return <Body />;
 }
 
-export default App
+export default App;
